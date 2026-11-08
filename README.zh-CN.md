@@ -19,8 +19,6 @@
 
 </div>
 
-![ForeignTrade 仪表盘](docs/images/dashboard-zh-top.png)
-
 ForeignTrade 是一个本地运行的外贸客户开发辅助工具，把客户企业、联系人、邮箱、开发信和跟进记录放在同一个工作台里。默认使用 SQLite，数据保存在本机，不需要额外的云服务或账号系统。
 
 适合个人外贸业务员、SOHO 和小团队内部使用。当前版本 `0.1.0`，仍在早期迭代，接口和数据结构可能调整。
@@ -59,10 +57,6 @@ ForeignTrade 是一个本地运行的外贸客户开发辅助工具，把客户�
 右上角提供语言下拉框，可在 **中文** 与 **English** 之间切换；选择会保存在浏览器本地存储中，刷新后保持。
 
 ![语言切换](docs/images/language-switch-crop.png)
-
-| 中文界面 | English UI |
-|:---:|:---:|
-| ![中文](docs/images/dashboard-zh-top.png) | ![English](docs/images/dashboard-en-top.png) |
 
 语言包位于 `frontend/src/i18n/locales/`：
 

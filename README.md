@@ -19,8 +19,6 @@ Manage companies and contacts · Deduce and verify emails · Generate AI outreac
 
 </div>
 
-![ForeignTrade dashboard](docs/images/dashboard-en-top.png)
-
 ForeignTrade is a local-first customer development workspace for foreign trade. It keeps companies, contacts, emails, outreach letters, and follow-ups in one place. It uses SQLite by default and stores data on your machine — no cloud service or account system required.
 
 It is designed for individual salespeople, SOHOs, and small teams. The current version is `0.1.0` and is still under active development; APIs and data structures may change.
@@ -59,10 +57,6 @@ It is designed for individual salespeople, SOHOs, and small teams. The current v
 The top-right language dropdown switches the UI between **中文** and **English**. The selection is stored in browser local storage and persists across reloads.
 
 ![Language switch](docs/images/language-switch-crop.png)
-
-| Chinese UI | English UI |
-|:---:|:---:|
-| ![Chinese UI](docs/images/dashboard-zh-top.png) | ![English UI](docs/images/dashboard-en-top.png) |
 
 Language packs live in `frontend/src/i18n/locales/`:
 
