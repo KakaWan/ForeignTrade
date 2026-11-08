@@ -1,0 +1,28 @@
+/* 全局样式微调。
+ *
+ * antd 的表格表头里，排序箭头和筛选图标分别取全局 token（fontSizeIcon 12px / fontSizeSM 12px），
+ * 没有组件级 token 可以调，而且各自还带内边距：
+ *   排序箭头 12px + 4px 间距、筛选图标 20px 宽 —— 在「国家」这种 108px 宽的列上要占掉约 36px。
+ * 这里统一收小，给表头标题让出宽度。
+ */
+
+.ant-table-thead .ant-table-column-sorter {
+  margin-inline-start: 2px;
+}
+
+.ant-table-thead .ant-table-column-sorter-up,
+.ant-table-thead .ant-table-column-sorter-down {
+  font-size: 10px;
+}
+
+.ant-table-thead .ant-table-filter-trigger {
+  margin-inline: 2px -6px;
+  padding: 0 2px;
+  font-size: 11px;
+}
+
+/* 月历：悬停给一个浅底圆点。用 class 是因为内联样式写不了 :hover；
+   今天那格有内联背景色，按优先级不会被这条覆盖，正好保持实心强调色。 */
+.cal-day:hover .cal-circle {
+  background: #f4f4f5;
+}
