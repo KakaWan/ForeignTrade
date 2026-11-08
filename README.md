@@ -13,7 +13,7 @@ Manage companies and contacts · Deduce and verify emails · Generate AI outreac
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-early%20development-orange)](https://github.com/KakaWan/ForeignTrade)
 
-**English (primary)** · [简体中文](README.zh-CN.md)
+**English** · [简体中文](README.zh-CN.md)
 
 [Features](#features) · [Screenshots](#screenshots) · [Language](#language) · [Quick Start](#quick-start) · [Configuration](#configuration) · [Roadmap](#roadmap)
 
@@ -252,4 +252,4 @@ Issues and pull requests are welcome. Please run the backend tests and frontend 
 
 ---
 
-[简体中文](README.zh-CN.md) · English (primary)
+[简体中文](README.zh-CN.md) · English

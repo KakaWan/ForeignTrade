@@ -13,7 +13,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-early%20development-orange)](https://github.com/KakaWan/ForeignTrade)
 
-[English (primary)](README.md) · **简体中文**
+[English](README.md) · **简体中文**
 
 [功能](#功能) · [界面预览](#界面预览) · [中英文切换](#中英文切换) · [快速开始](#快速开始) · [配置](#配置) · [Roadmap](#roadmap)
 
@@ -252,4 +252,4 @@ build.bat
 
 ---
 
-[English (primary)](README.md) · 简体中文
+[English](README.md) · 简体中文
